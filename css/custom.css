@@ -1,0 +1,100 @@
+/* this is a custom css stylesheet */
+body {
+	padding-top: 75px;
+}
+
+h1 {
+	font-size: 2.5em;
+}
+
+h2 {
+	font-size: 2em;
+}
+
+#footer {
+	padding: 2em 0;
+	margin: 3em 0;
+	border-top: 1px solid #ddd;
+	color: #999;
+	text-align: center;
+}
+
+div#socialmedia {
+	display: inline;
+}
+
+.hempForVictory {
+	width: 100%;
+}
+
+.video-container { 
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; 
+    height: 0; 
+    overflow: hidden; 
+}   
+
+.video-container iframe, .video-container object, .video-container embed {     
+	position: absolute;     
+	top: 0;     
+	left: 0;     
+	width: 100%;     
+	height: 100%; 
+}
+
+video {
+	position: absolute;     
+	top: 0;     
+	left: 0;     
+	width: 100%;     
+	height: 100%;	
+}
+
+.panel-heading a:after {
+    font-family: 'Glyphicons Halflings';
+    content: "\e114";    
+    float: right; 
+    color: grey; 
+}
+.panel-heading a.collapsed:after {
+    content: "\e080";
+}
+
+/* Media Querries
+---------------------------------------------------------*/
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media screen and (min-width: 768px) and (max-width: 959px) {
+		h1 {
+			font-size: 2em;
+		}
+
+		h2 {
+			font-size: 1.5em;
+		}		
+
+	}
+
+	/* Mobile Landscape Size to Tablet Portrait (devives and browsers) */
+	@media screen and (min-width: 480px) and (max-width: 767px) {
+		h1 {
+			font-size: 2em;
+		}
+
+		h2 {
+			font-size: 1.5em;
+		}
+
+	}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media screen and (max-width: 479px) {
+		h1 {
+			font-size: 1.5em;
+		}
+
+		h2 {
+			font-size: 1.25em;
+		}
+	}
